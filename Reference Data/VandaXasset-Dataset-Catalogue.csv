@@ -1,0 +1,74 @@
+family,asset_class,dataset,dataset_version,display_name,dataset_id,first_ts,last_ts,series_count,frequencies,metrics,units
+flow,commodity,global_metals_flows,1,LME Metals Positioning Flows,FLOW.GL.LME.V1,2018-01-26,2026-04-10,10,daily,buy;buy_raw;exposure_long;exposure_net;exposure_short;long_exp_raw;net;net_exp_raw;net_raw;sell;sell_raw;short_exp_raw,USDmn;contracts
+flow,equity,au_equity_short_interest,1,Australia Equity Short Interest by Sector,FLOW.AU.AUSEQSI.V1,2010-06-25,2026-04-10,12,weekly,exposure;net,USDmn
+flow,equity,cn_csi_futures_options_flows,1,China CFFEX CSI Futures & Options Flows,FLOW.CN.EQCSI.V1,2010-04-16,2026-04-10,7,daily,buy;net;sell;total,USDmn
+flow,equity,cn_h_index_options_open_interest,1,HKEX H-Index Options Open Interest,FLOW.CN.EQHINDEXOPT.V1,2008-01-02,2026-04-10,3,daily,buy;net;sell;total,USDmn
+flow,equity,cn_h_share_options_open_interest,1,HKEX Single-Stock Options Open Interest by Sector,FLOW.CN.EQHOPT.V1,2008-01-02,2026-04-10,12,daily,buy;net;sell;total,USDmn
+flow,equity,cn_h_share_warrants_turnover,1,HKEX Warrants & CBBC Turnover by Sector,FLOW.CN.EQHWARR.V1,2008-01-02,2026-04-10,15,daily,call_turnover;net_call_put_turnover;put_turnover;total_call_put_turnover,HKDmn
+flow,equity,cn_retail_margin_flows,1,China Retail Margin Trading Flows by Sector,FLOW.CN.EQRET.V1,2013-01-07,2026-04-10,12,daily,buy;long_exposure;net;net_exposure;sell;short_exposure;total,USDmn
+flow,equity,cn_stock_connect_flows,1,China Stock Connect Flows by Sector,FLOW.CN.EQ.V1,2014-11-17,2026-04-10,24,daily,net,USDmn
+flow,equity,eu_equity_short_interest,1,EU Equity Short Interest,FLOW.GL.EUEQSI.V1,2013-01-01,2026-04-10,95,daily,net,USDmn
+flow,equity,global_equity_fund_exposure,1,Long/Short & Mutual Fund Equity Exposure,FLOW.GL.LSMFEXP.ALL.V1,2008-01-02,2026-04-10,5,daily,exposure;exposure_as_perc_aum,USDmn;ratio
+flow,equity,in_equity_foreign_flows,1,India Foreign Equity Flows by Sector,FLOW.IN.EQFOR.V1,2012-02-29,2026-03-31,11,daily,net,USDmn
+flow,equity,in_institutional_flows,1,India Institutional Flows (Derivatives + Domestic Funds),FLOW.IN.ININSTFLOWS.V1,1999-12-21,2026-04-10,6,daily,buy;net;sell;total,USDmn
+flow,equity,mx_equity_foreign_flows,1,Mexico Foreign Equity Flows,FLOW.MX.EQ.V1,2009-06-30,2026-03-31,1,monthly,exposure;net,MXNbn
+flow,equity,ph_equity_foreign_flows,1,Philippines Foreign Equity Flows by Sector,FLOW.PH.EQ.V1,2021-01-15,2026-04-10,10,daily,buy;lower;net;sell;total;upper,USDmn
+flow,equity,tw_equity_flows,1,Taiwan Equity Investor Flows,FLOW.TW.TWEQ.V1,2001-01-02,2026-04-10,40,daily,buy;buy_raw;net;net_raw;sell;sell_raw;total;total_raw,USDmn
+flow,equity,us_dealer_gamma_exposure,1,US Dealer Gamma Exposure,FLOW.US.GAMMA.V1,2017-01-03,2026-04-10,4,daily,exposure_gamma;exposure_gamma_10D;exposure_gamma_1D;exposure_gamma_5D;net,USDmn
+flow,equity,us_equity_short_interest,1,US Equity Short Interest,FLOW.US.USSHORTS.V1,2005-01-14,2026-03-31,17,daily,exposure;flow_usd_perc;net;short_usd_perc,USDmn;ratio
+flow,equity,us_equity_theme_flows,1,US Equity Retail & Institutional Theme Flows,FLOW.US.USEQFLOWS.V1,2014-01-02,2026-04-10,57,daily,buy;net;sell;total,USDmn
+flow,fixed_income,br_fixed_income_foreign_flows,1,Brazil Foreign Bond Flows,FLOW.BR.FIFOR.V1,2007-02-28,2026-03-31,1,daily,net,USDmn
+flow,fixed_income,cn_fixed_income_flows,1,China Bond Flows by Investor Type,FLOW.CN.FI.V1,2008-01-31,2026-03-31,5,monthly,net,USDmn
+flow,fixed_income,global_fixed_income_futures_aggressors,1,Fixed Income Futures Aggressors,FLOW.GL.FIAGGRESSORS.ALL.V1,2005-01-03,2026-04-10,13,daily,buy;buy_usd;closed_long;closed_long_usd;closed_short;closed_short_usd;cum_net_usd;net;net_usd;new_long;new_long_usd;new_short;new_short_usd;sell;sell_usd,USDmn;contracts
+flow,fixed_income,id_fixed_income_flows,1,Indonesia Bond Flows by Investor Type,FLOW.ID.FI.V1,2009-06-15,2026-04-10,4,daily,net,USDmn
+flow,fixed_income,mx_fixed_income_foreign_flows,1,Mexico Foreign Bond Flows,FLOW.MX.FI.V1,2007-01-01,2026-04-10,1,daily,net,USDmn
+flow,fixed_income,my_fixed_income_foreign_flows,1,Malaysia Foreign Bond Flows,FLOW.MY.FI.V1,2007-01-04,2026-04-10,3,monthly,net,USDmn
+flow,fixed_income,ph_fixed_income_foreign_flows,1,Philippines Foreign Bond Flows,FLOW.PH.FI.V1,2007-02-28,2026-03-31,1,monthly,net,USDmn
+flow,multi_asset,global_cftc_positioning_flows,1,CFTC COT / TFF Positioning Flows,FLOW.GL.CFTC.ALL.V1,2006-09-05,2026-04-07,253,weekly,buy;buy_raw;exposure_long;exposure_long_traders;exposure_net;exposure_net_traders;exposure_short;exposure_short_traders;long_chg;long_chg_raw;long_exp_raw;net;net_exp_raw;net_raw;sell;sell_raw;short_chg;short_chg_raw;short_exp_raw;traders_comm_long_old;traders_comm_long_other;traders_comm_short_old;traders_comm_short_other;traders_m_money_long_old;traders_m_money_long_other;traders_m_money_short_old;traders_m_money_short_other;traders_noncomm_long_old;traders_noncomm_long_other;traders_noncomm_short_old;traders_noncomm_short_other;traders_prod_merc_long_old;traders_prod_merc_long_other;traders_prod_merc_short_old;traders_prod_merc_short_other;traders_swap_long_old;traders_swap_long_other;traders_swap_short_old;traders_swap_short_other,USDmn;contracts;count
+flow,multi_asset,global_fund_flows,1,ETF & Money Market Fund Flows,FLOW.GL.FUNDFLOW.V1,2001-01-01,2026-04-10,60,daily,net,USDmn
+flow,multi_asset,global_systematic_flows,1,Systematic Strategies (CTA / Risk Parity / Vol Targeting),FLOW.GL.SYSTEMATIC.V1,2010-01-01,2026-04-10,192,daily,convex_10d;convex_1d;convex_5d;cum_net_10d;cum_net_1d;cum_net_5d;exposure;exposure_10d;exposure_1d;exposure_5d;exposure_as_perc_aum;net;net_as_perc_aum;projection,USDmn;days;pct_aum
+flow,multi_asset,in_foreign_flows_by_instrument,1,India Foreign Flows by Instrument,FLOW.IN.INFORINST.V1,2009-11-30,2026-04-10,2,daily,buy;net;sell;total,USDmn
+flow,multi_asset,jp_investor_flows,1,Japan Weekly Investor Flows,FLOW.JP.JPWOW.V1,2000-02-04,2026-04-10,35,daily,buy;buy_exposure;net;net_exposure;sell;sell_exposure;total;total_exposure,USDmn
+flow,multi_asset,kr_investor_flows,1,Korea Exchange Investor Flows,FLOW.KR.KREQ.V1,2009-01-02,2026-04-10,90,daily,buy_value;buy_volume;net_value;net_volume;sell_value;sell_volume;total_value;total_volume,USDmn;contracts;shares
+flow,multi_asset,tr_foreign_flows,1,Turkey Foreign Equity & Bond Flows,FLOW.TR.FOR.V1,2007-01-05,2026-04-10,2,monthly,net,USDmn
+positioning,commodity,global_commodity_positioning,1,Global Commodities Combined Positioning,POS.GL.COM.COMB.V1,2010-01-01,2026-04-10,18,daily,combined_positioning,zscore
+positioning,commodity,global_metals_positioning,1,LME Metals Combined Positioning,POS.GL.LME.COMB.V1,2010-01-01,2026-04-10,5,daily,combined_positioning,zscore
+positioning,equity,au_equity_positioning,1,Australia Equity Combined Positioning,POS.AU.EQ.COMB.ALL.V1,2011-01-03,2026-04-10,12,daily;weekly,combined_positioning,zscore
+positioning,equity,cn_a_share_positioning,1,China A-Shares Combined Positioning,POS.CN.EQ.COMB.A.V1,2015-01-01,2026-04-10,1,daily,combined_positioning,zscore
+positioning,equity,cn_a_share_sector_positioning,1,China A-Shares Combined Positioning - Sectors,POS.CN.EQ.COMB.A.SECTORS.V1,2016-06-01,2026-04-10,11,daily,combined_positioning,zscore
+positioning,equity,cn_h_share_positioning,1,China H-Shares Combined Positioning,POS.CN.EQ.COMB.H.V1,2010-01-01,2026-04-10,1,daily,combined_positioning,zscore
+positioning,equity,cn_h_share_sector_positioning,1,China H-Shares Combined Positioning - Sectors,POS.CN.EQ.COMB.H.SECTORS.V1,2011-12-28,2026-04-10,11,daily,combined_positioning,zscore
+positioning,equity,eafe_equity_positioning,1,EAFE Equity Combined Positioning,POS.EAFE.EQ.COMB.V1,2010-01-01,2026-04-10,1,daily,combined_positioning,zscore
+positioning,equity,em_equity_positioning,1,EM Equity Combined Positioning,POS.EM.EQ.COMB.V1,2008-04-08,2026-04-10,11,daily,combined_positioning,zscore
+positioning,equity,eu_equity_positioning,2,Europe Equity Combined Positioning,POS.EU.EQ.COMB.V2,2010-01-01,2026-04-10,8,daily,combined_positioning;n_inputs,count;zscore
+positioning,equity,eu_equity_sector_positioning,2,Europe Equity Combined Positioning - Sectors,POS.EU.EQ.COMB.SECTORS.V2,2010-01-04,2026-04-10,11,daily,combined_positioning;n_inputs,count;zscore
+positioning,equity,in_equity_positioning,1,India Equity Combined Positioning,POS.IN.EQ.COMB.ALL.V1,2010-03-04,2026-04-10,12,bi-weekly;daily,combined_positioning,zscore
+positioning,equity,jp_equity_positioning,1,Japan Equity Combined Positioning,POS.JP.EQ.COMB.V1,2008-08-21,2026-04-10,1,daily,combined_positioning,zscore
+positioning,equity,jp_equity_sector_positioning,1,Japan Equity Combined Positioning - Sectors,POS.JP.EQ.COMB.SECTORS.V1,2000-04-28,2026-04-10,11,weekly,combined_positioning,zscore
+positioning,equity,kr_equity_positioning,2,Korea Equity Combined Positioning,POS.KR.EQ.COMB.V2,2015-10-19,2026-04-10,1,daily,combined_positioning,zscore
+positioning,equity,kr_equity_sector_positioning,1,Korea Equity Combined Positioning - Sectors,POS.KR.EQ.COMB.SECTORS.V1,2015-07-31,2026-04-10,22,daily,combined_positioning,zscore
+positioning,equity,ph_equity_positioning,1,Philippines Equity Combined Positioning,POS.PH.EQ.COMB.V1,2010-03-31,2026-04-10,10,daily,combined_positioning,zscore
+positioning,equity,tw_equity_positioning,2,Taiwan Equity Combined Positioning,POS.TW.EQ.COMB.ALL.V2,2012-07-27,2026-04-10,1,daily,combined_positioning,zscore
+positioning,equity,tw_equity_sector_positioning,1,Taiwan Equity Combined Positioning - Sectors,POS.TW.EQ.COMB.SECTORS.V1,2012-07-27,2026-04-10,11,daily,combined_positioning,zscore
+positioning,equity,us_equity_factor_positioning,1,US Equity Factor Combined Positioning,POS.US.EQ.COMB.FACT.V1,2010-01-01,2026-04-10,5,daily,combined_positioning,zscore
+positioning,equity,us_equity_positioning,1,US Equity Combined Positioning,POS.US.EQ.COMB.V1,2010-01-01,2026-04-10,1,daily,combined_positioning,zscore
+positioning,equity,us_equity_sector_positioning,1,US Equity Combined Positioning - Sectors,POS.US.EQ.COMB.SECTORS.V1,2010-01-04,2026-04-10,11,daily,combined_positioning,zscore
+positioning,equity,us_small_cap_growth_value_positioning,1,US Small-Cap Growth/Value Combined Positioning,POS.US.EQ.COMB.SMALL.GV.V1,2017-01-03,2026-04-10,2,daily,combined_positioning,zscore
+positioning,fixed_income,br_fixed_income_positioning,1,Brazil FI Combined Positioning,POS.BR.FI.COMB.V1,2010-01-31,2026-03-31,1,monthly,combined_positioning,zscore
+positioning,fixed_income,cn_fixed_income_positioning,1,China FI Combined Positioning,POS.CN.FI.COMB.V1,2017-12-31,2026-04-10,1,monthly,combined_positioning,zscore
+positioning,fixed_income,em_fixed_income_positioning,1,EM Fixed Income Combined Positioning,POS.EM.FI.COMB.V1,2010-01-04,2026-04-10,1,daily,combined_positioning,zscore
+positioning,fixed_income,eu_fixed_income_aggregate_positioning,1,Europe FI Combined Positioning - Aggregate,POS.EU.FI.COMB.AGG.V1,2010-01-01,2026-04-10,1,daily,combined_positioning,zscore
+positioning,fixed_income,eu_fixed_income_positioning,1,European FI Combined Positioning - Country/Tenor,POS.EU.FI.COMB.V1,2010-01-01,2026-04-10,7,daily,combined_positioning,zscore
+positioning,fixed_income,id_fixed_income_positioning,1,Indonesia FI Combined Positioning,POS.ID.FI.COMB.V1,2010-01-05,2026-04-10,1,daily,combined_positioning,zscore
+positioning,fixed_income,in_fixed_income_positioning,1,India FI Combined Positioning,POS.IN.FI.COMB.V1,2010-03-04,2026-04-10,1,daily,combined_positioning,zscore
+positioning,fixed_income,jp_fixed_income_positioning,1,Japan FI Combined Positioning,POS.JP.FI.COMB.V1,2010-01-01,2026-04-10,1,daily,combined_positioning,zscore
+positioning,fixed_income,kr_fixed_income_positioning,1,Korea FI Combined Positioning,POS.KR.FI.COMB.V1,2011-01-19,2026-04-10,1,daily,combined_positioning,zscore
+positioning,fixed_income,mx_fixed_income_positioning,1,Mexico FI Combined Positioning,POS.MX.FI.COMB.V1,2010-01-01,2026-04-10,1,daily,combined_positioning,zscore
+positioning,fixed_income,my_fixed_income_positioning,1,Malaysia FI Combined Positioning,POS.MY.FI.COMB.V1,2010-01-01,2026-04-10,1,daily,combined_positioning,zscore
+positioning,fixed_income,ph_fixed_income_positioning,1,Philippines FI Combined Positioning,POS.PH.FI.COMB.V1,2010-01-08,2026-04-10,1,monthly,combined_positioning,zscore
+positioning,fixed_income,tr_fixed_income_positioning,1,Turkey FI Combined Positioning,POS.TR.FI.COMB.V1,2010-01-01,2026-04-10,1,weekly,combined_positioning,zscore
+positioning,fixed_income,us_credit_hy_ig_positioning,1,US High-Yield vs Investment-Grade Combined Positioning,POS.US.FI.COMB.HY.IG.V1,2010-01-04,2026-04-10,2,daily,combined_positioning,zscore
+positioning,fixed_income,us_tips_mbs_positioning,1,US TIPS vs MBS Combined Positioning,POS.US.FI.COMB.TIPS.MBS.V1,2010-01-04,2026-04-10,2,daily,combined_positioning,zscore
+positioning,fixed_income,us_treasury_positioning,1,US Treasury Futures Combined Positioning - Tenor,POS.US.FI.COMB.V1,2010-01-01,2026-04-10,5,daily,combined_positioning,zscore
+positioning,fixed_income,za_fixed_income_positioning,1,South Africa FI Combined Positioning,POS.ZA.FI.COMB.V1,2010-01-04,2026-04-10,1,daily,combined_positioning,zscore
+positioning,fx,global_fx_positioning,1,FX Positioning Combined,POS.GL.FX.COMB.V1,2016-01-01,2026-04-10,28,daily,combined_positioning,zscore

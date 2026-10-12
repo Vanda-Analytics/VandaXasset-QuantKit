@@ -1,0 +1,51 @@
+position,code,meaning
+country,2 letters,"ISO country code, or GL (global), EU, EM, EAFE"
+asset_class,EQ,Equity
+asset_class,FI,Fixed income
+asset_class,FX,FX
+asset_class,COM,Commodity
+asset_class,CRYPTO,Crypto
+instrument,STCK,Stocks
+instrument,FUTU,Futures
+instrument,OPTI,Options
+instrument,HOPT,Hong Kong single-stock options
+instrument,BOND,Bonds
+instrument,WARR,Warrants
+instrument,ASHR,China A-shares
+instrument,HSHR,China H-shares
+instrument,CASH,Cash
+instrument,PHYS,Physical
+instrument,MIX,Mixed
+origin,DOM,Domestic investors
+origin,FOR,Foreign investors
+origin,MIX,Mixed / all
+category,INS,Institutional
+category,IND,Individual (retail)
+category,MIX,Mixed
+category,COMB,Combined positioning score
+type,SPE,Speculative
+type,REA,Real money
+type,COM,Commercial
+type,PAS,Passive
+type,BAN,Banks
+type,MIX,Mixed
+subtype,CTA,CTA / trend followers
+subtype,RP,Risk parity
+subtype,VT,Volatility targeting
+subtype,RET,Retail
+subtype,ETF,ETF
+subtype,MUT,Mutual funds / investment trusts
+subtype,PEN,Pension funds
+subtype,DEA,Dealers
+subtype,LEV,Leveraged funds
+subtype,ASS,Asset managers
+subtype,MAN,Managed money
+subtype,SWA,Swap dealers
+subtype,PRO,Producers / merchants
+subtype,AGG,Futures aggressors
+subtype,LS,Long/short funds
+subtype,MIX,Mixed
+suffix,-COMS ... -UTIL,"GICS sector slice (COMS, DISC, ENER, FINA, HLTH, INDU, MATE, RLST, STAP, TECH, UTIL)"
+suffix,-2YR ... -30YR,Tenor bucket (fixed income)
+suffix,-USDJPY etc.,"Currency pair, quoted in market convention"
+suffix,_BETA,Beta-adjusted variant of a combined score
